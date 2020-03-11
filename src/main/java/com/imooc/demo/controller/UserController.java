@@ -25,12 +25,6 @@ public class UserController {
     public String login(UserDto userDto) {
         LOG.info("登录开始, {}", userDto.toString());
 
-        Map<String, String> map = new HashMap<>();
-        map.put("", "");
-        map.put("", "");
-        map.put("", "");
-        map.put("", "");
-
         // todo 调用service方法
         userDto = userService.doLogin(userDto);
 

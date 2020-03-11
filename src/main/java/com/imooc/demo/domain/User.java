@@ -4,7 +4,7 @@ public class User {
     /**
      * ID
      */
-    private String id;
+    private int id;
 
     /**
      * 登陆名
@@ -21,11 +21,11 @@ public class User {
      */
     private String password;
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
